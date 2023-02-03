@@ -100,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				A8D5CEF3298CD29500398E74 /* ViewController.swift */,
+				A8D5CF0A298CE18C00398E74 /* MemberTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -108,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				A8D5CF08298CDF6800398E74 /* TeamModel.swift */,
-				A8D5CF0A298CE18C00398E74 /* MemberTableViewCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";

@@ -12,10 +12,26 @@ class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     let teamMembers = [
-        TeamMember(name: "Игорь Солодянкин", role: "TeamLeader", photo: UIImage(named: "igor")!),
-        TeamMember(name: "Алексей Манохин", role: "Developer", photo: UIImage(named: "aleksey")!),
-        TeamMember(name: "Айдарс Усманов", role: "Developer", photo: UIImage(named: "aidar")!),
-        TeamMember(name: "Максим Гурков", role: "Developer", photo: UIImage(named: "maksim")!)
+        TeamMember(
+            name: "Игорь Солодянкин",
+            role: "TeamLeader",
+            photo: UIImage(named: "igor") ?? UIImage()
+        ),
+        TeamMember(
+            name: "Алексей Манохин",
+            role: "Developer",
+            photo: UIImage(named: "aleksey") ?? UIImage()
+        ),
+        TeamMember(
+            name: "Айдарс Османов",
+            role: "Developer",
+            photo: UIImage(named: "aidar") ?? UIImage()
+        ),
+        TeamMember(
+            name: "Максим Гурков",
+            role: "Developer",
+            photo: UIImage(named: "maksim") ?? UIImage()
+        )
     ]
     
     override func viewDidLoad() {
